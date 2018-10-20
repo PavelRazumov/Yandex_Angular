@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dzen{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 940px;
+}
+
+.dzen__header{
+    display: flex;
+    flex-direction: row; 
+    justify-content: baseline;
+}
+
+.dzen__title{
+    flex-basis: 100%;
+}
+
+.dzen__text{
+    flex-basis: 150%;
+}
+.dzen__link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    flex-basis: 25%;
+    color: black;
+    justify-content: space-evenly;
+}
+._text{
+    font-size: 150%;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.dzen__title-image{
+    height: 30px;
+    flex-basis: 50%;
+}
+.dzen__title-desc{
+    color: gray;
+    padding: 5px 0;
+
+}
+._tt{
+    color: gray;
+    font-size: 13px;
+}
+
+/* дзент контент  */
+.dzen__content-field{
+    display: flex;
+    flex-direction: row;
+}
+
+.dzen__content-item{
+    flex-basis: 33,3%;
+    height: 316px;
+    padding: 0 4px;
+}
+
+.dzen__image-field{
+    position: relative;
+    width: 100%;
+}
+.dzen__image{
+    width: 300px;
+    height: 316px;
+}
+
+.dzen__doc-link{
+    text-decoration: none;
+}
+.dzen__doc-header{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    color: white;
+    font-family: bold-ysans, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.dzen__doc-content{
+    margin-top: 8px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    color: white;
+    font-family: bold-ysans, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    width: 285px;
+}
+
+/* Дзен футер */
+
+.dzen__doc-footer{  
+    position: absolute;
+    top: 290px;
+    left: 20px;
+}
+
+.dzen__footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dzen__footer-link{
+    flex-basis: 70%;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-size: 16px;
+}
+.dzen__like{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}

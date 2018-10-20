@@ -1,0 +1,19 @@
+{
+	"widget" : {
+		"debug" : "on",
+		"window": {
+			"title" : "Погода"
+		},
+		"image" : {
+			"src" : "https://svgsilh.com/svg/1314952-ffc107.svg",
+			"name" : "sun",
+			"h" : 250,
+			"w" : 250
+		},
+		"text" :{
+			"morning" : "+5",
+			"afternoon" : "+14",
+			"evening": "0"
+		}
+	}
+}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ContentChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-yandex';
+
+  @ViewChild("dzen")
+  public dzen: any;
+
+  @ContentChild("qwe")
+  contentChild: any;
+
+  constructor(){
+
+  }
+
+  ngOnInit(){
+
+  }
+
+  ngAfterViewInit(){
+    //dzen.
+  }
 }

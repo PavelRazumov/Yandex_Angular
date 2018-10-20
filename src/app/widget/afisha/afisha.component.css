@@ -1,0 +1,30 @@
+.w-afisha__title{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0054b9;
+    font-family: "YS Text", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+}
+
+.w-afisha__link{
+    text-decoration: none;
+    color: #0054b9;
+}
+
+.w-afisha__link:hover{
+    cursor: pointer;
+    color: red;
+}
+.w-afisha__list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.__tt{
+    color: black;
+    font-size: 14px;
+}
+
+.w-afisha__genre-film{
+    color: gray;
+}

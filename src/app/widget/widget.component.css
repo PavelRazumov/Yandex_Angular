@@ -1,0 +1,31 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.container1__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    width: 930px;
+    flex-basis: 1020px;
+    margin-top: 20px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.container2__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    width: 930px;
+    flex-basis: 1020px;
+    margin-top: 5px;
+}

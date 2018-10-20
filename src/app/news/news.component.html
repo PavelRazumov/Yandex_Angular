@@ -1,0 +1,52 @@
+<div class="container"> 
+ <div class="news-and-ad">    
+        <div class = "news-content">
+            <div class="news-content__header">
+                <a href = # class="news-content__link" (click) = "GetGeoGlobal()" >
+                  Сейчас в СМИ
+                </a>
+                <a href = # class="news-content__link" (click) = "GetGeoNews()">
+                
+                    в Москве
+                </a>
+                <span class="news-content__data">
+                        {{day}} {{month}} {{r}}
+                </span>
+                <a href="#" class="news-content__time">
+                        {{ time }}
+                </a>
+            </div>
+            <div class="news-content__content">
+                <ul *ngIf = "newsGlobal" class="new-content__list">
+                    <li *ngFor = "let tit of titles " class="news-content__list-item _new">
+                        <span class = "badge "> </span>
+                        <a href = # class = "new-content__list">
+                            {{tit.title}}
+                        </a>
+                    </li>
+                </ul>
+                <ul *ngIf = "newsGeo" class="new-content__list">
+                    <li *ngFor = "let tit of titles " class="news-content__list-item _old">
+                            <a href = # class = "new-content__list">
+                                {{tit.name}}
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="ad">
+            <img src = "../../assets/image/optimize.png" class = "ad__image">
+            <a href = # class="ad__link">
+                <h4 class="ad__title">
+                    Соревнование по фронтенду
+                </h4>
+            </a>
+            <div class="ad__footer">
+                <span class="ad__text">
+                    Яндекс.Блиц
+                </span>
+            </div> 
+        </div>
+    </div>
+</div>  

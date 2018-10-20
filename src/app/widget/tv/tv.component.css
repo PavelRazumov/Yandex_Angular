@@ -1,0 +1,51 @@
+.w-tv{
+    width: 300px;
+    padding-left: 40px;
+}
+
+.w-tv__title{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0054b9;
+    font-family: "YS Text", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+}
+
+.w-tv__link{
+    margin-right: 10px;
+    width: 300px;
+}
+
+.w-tv__link:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.w-tv__button{
+    background-color: #418af9;
+    background-image: linear-gradient(-225deg,#58c2ff 0%,#8080ff 100%);
+    border-radius: 5px;
+    border: 0;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.w-tv__button-text{
+    padding: 0 8px 0 10px;
+    color: white;
+    font-size: 13px;
+}
+._tt{
+    font-size: 15px;
+    color: black;
+}
+
+.w-tv__list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.w-tv__link-channel{
+    font-size: 13px;
+    color: gray;
+}

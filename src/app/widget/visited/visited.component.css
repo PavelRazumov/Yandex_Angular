@@ -1,0 +1,44 @@
+.w-visited {
+    padding-right: 6px;
+    width: 300px;
+}
+
+.w-visited__title{
+    padding-left: 40px;
+}
+
+.w-visited__link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0054b9;
+    font-family: "YS Text", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+}
+
+.w-visited__link:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+._tt{
+    font-weight: 700;
+    font-size: 14px;
+    color:  black;
+    text-decoration: none;
+}
+
+._tt:hover{
+    cursor: pointer;
+    color: red;
+}
+.w-visited__list{
+    list-style: none;
+    
+}
+._oo{
+    font-size: 13px;
+    color: black;
+    font-weight: 400;
+}

@@ -1,0 +1,36 @@
+.map{
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    width: 300px;
+    padding-left: 40px;
+}
+
+.map__link{
+    text-decoration: none;
+    color: black;
+}
+
+.__title-size{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0054b9;
+    font-family: "YS Text", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+}
+
+.__title-size:hover{
+    cursor: pointer;
+    color: red;
+}
+.map__list {
+    list-style-type: none; 
+    padding-left: 0px;
+   
+}
+
+.map__list-item {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+}
